@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-glossgenius",
+  "version": "1.0.0",
+  "description": "Eslint config for GlossGenius team",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "eslint": ">= 6.2.2"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlossGenius/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Alexey Cherkashin aka goodniceweb | goodniceweb@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GlossGenius/eslint-config/issues"
+  },
+  "homepage": "https://github.com/GlossGenius/eslint-config#readme"
+}
