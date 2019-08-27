@@ -4,8 +4,7 @@ var base = require("./index");
 module.exports = merge(base, {
   "plugins": [
     "react",
-    "jsx-a11y",
-    "import"
+    "jsx-a11y"
   ],
   "rules": {
     "react/jsx-filename-extension": "off",
