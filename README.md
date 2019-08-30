@@ -2,13 +2,13 @@
 
 ## Table of contents
 
-1. Installation
-2. How to use
-   * Vanilla JS
-   * React
-   * React Native
-   * Vue.js
-3. Contributing
+1. [Installation](#installation)
+2. [How to use](#how-to-use)
+   * [Vanilla JS](#vanilla-js-aka-pure-javascript)
+   * [React](#react)
+   * [React Native](#react-native)
+   * [Vue.js](#vuejs)
+3. [Contributing](#contributing)
 
 ## Installation
 
