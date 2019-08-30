@@ -149,18 +149,18 @@ If you use JSON type:
 
 Additionally you need to install:
 
-- eslint-config-vue
+- eslint-plugin-vue
 
 Via npm
 
 ```
-npm install --save-dev eslint-config-vue
+npm install --save-dev eslint-plugin-vue
 ```
 
 Via yarn
 
 ```
-yarn add -D eslint-config-vue
+yarn add -D eslint-plugin-vue
 ```
 
 #### Eslint Config
