@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-glossgenius",
+  "name": "@glossgenius/eslint-config",
   "version": "1.0.2",
   "description": "Eslint config for GlossGenius team",
   "main": "index.js",
