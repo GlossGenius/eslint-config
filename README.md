@@ -1,6 +1,6 @@
 # GlossGenius JavaScript Style Guide
 
-### Table of contents
+## Table of contents
 
 1. Installation
 2. How to use
@@ -12,16 +12,18 @@
 
 ## Installation
 
-Via npm
+*Please notice* you can install additional packages with `npm` or `yarn`.
+
+Via `npm`
 
 ```
-npm install --save-dev eslint eslint-plugin-import eslint-config-glossgenius
+npm install --save-dev eslint eslint-plugin-import @glossgenius/eslint-config
 ```
 
-Via yarn
+Via `yarn`
 
 ```
-yarn add -D eslint eslint-plugin-import eslint-config-glossgenius
+yarn add -D eslint eslint-plugin-import @glossgenius/eslint-config
 ```
 
 ## How to use
@@ -30,15 +32,11 @@ Depends of what main JS framework you have, you might need a different
 eslint configuration. Below you can find files you need to use in
 your `extends` directive.
 
+Please notice you can *use JS or JSON config type* for eslint.
+
 ### Vanilla JS aka pure JavaScript
 
-```js
-// .eslintrc.js
-
-module.exports = {
-  extends: 'glossgenius'
-}
-```
+#### Additional packages
 
 Additionally you need to install:
 
@@ -56,15 +54,29 @@ Via yarn
 yarn add -D babel-eslint
 ```
 
-### React
+#### Eslint Config
 
+If you use JS type:
 ```js
 // .eslintrc.js
 
 module.exports = {
-  extends: 'glossgenius/react'
+  extends: '@glossgenius'
 }
 ```
+
+If you use JSON type:
+```json
+// .eslintrc.json
+
+{
+  "extends": "@glossgenius"
+}
+```
+
+### React
+
+#### Additional packages
 
 Additionally you need to install:
 
@@ -84,28 +96,56 @@ Via yarn
 yarn add -D babel-eslint eslint-plugin-react eslint-plugin-jsx-a11y
 ```
 
-### React Native
+#### Eslint Config
 
+If you use JS type:
 ```js
 // .eslintrc.js
 
 module.exports = {
-  extends: 'glossgenius/react-native'
+  extends: '@glossgenius/eslint-config/react'
 }
 ```
+
+If you use JSON type:
+```json
+// .eslintrc.json
+
+{
+  "extends": "@glossgenius/eslint-config/react"
+}
+```
+
+### React Native
+
+#### Additional packages
 
 For React Native you need exactly the same additional packages
 as for React (please see above)
 
-### Vue.js
+#### Eslint Config
 
+If you use JS type:
 ```js
 // .eslintrc.js
 
 module.exports = {
-  extends: 'glossgenius/vue'
+  extends: '@glossgenius/eslint-config/react-native'
 }
 ```
+
+If you use JSON type:
+```json
+// .eslintrc.json
+
+{
+  "extends": "@glossgenius/eslint-config/react-native"
+}
+```
+
+### Vue.js
+
+#### Additional packages
 
 Additionally you need to install:
 
@@ -121,6 +161,26 @@ Via yarn
 
 ```
 yarn add -D eslint-config-vue
+```
+
+#### Eslint Config
+
+If you use JS type:
+```js
+// .eslintrc.js
+
+module.exports = {
+  extends: '@glossgenius/eslint-config/vue'
+}
+```
+
+If you use JSON type:
+```json
+// .eslintrc.json
+
+{
+  "extends": "@glossgenius/eslint-config/vue"
+}
 ```
 
 ## Contributing
