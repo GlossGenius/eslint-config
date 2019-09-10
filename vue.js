@@ -1,7 +1,12 @@
-var merge = require("merge-deep");
-var base = require("./index");
+var path = require("path");
 
-module.exports = merge(base, {
-  "extends": "plugin:vue/recommended",
+module.exports = {
+  "extends": [
+    path.resolve(__dirname, "./index"),
+    "plugin:vue/recommended",
+  ],
   "parser": "vue-eslint-parser"
-});
+  "rules": {
+    "camelcase": 0
+  }
+};

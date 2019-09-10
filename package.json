@@ -1,6 +1,6 @@
 {
   "name": "@glossgenius/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4-rc.0",
   "description": "Eslint config for GlossGenius team",
   "main": "index.js",
   "dependencies": {
