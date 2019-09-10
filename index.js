@@ -2,7 +2,7 @@ module.exports = {
   "globals": {
     "fetch": false
   },
-  "extends": "airbnb",
+  "extends": "airbnb-base",
   "parser": "babel-eslint",
   "plugins": [
     "import"
