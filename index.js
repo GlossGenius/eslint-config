@@ -9,6 +9,7 @@ module.exports = {
   ],
   "rules": {
     "no-confusing-arrow": ["error", { "allowParens": true }],
+    "import/prefer-default-export": "off",
     "camelcase": 1
   }
 };
